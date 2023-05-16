@@ -14,7 +14,7 @@ class NotsView extends StatelessWidget {
           onPressed: () {
             showModalBottomSheet(
                 shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(16)),
+                    borderRadius: BorderRadius.circular(16)),
                 context: context,
                 builder: (context) => AddNoteButtonSheet());
           },

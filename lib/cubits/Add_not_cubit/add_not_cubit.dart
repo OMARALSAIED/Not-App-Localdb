@@ -8,7 +8,7 @@ part 'add_not_state.dart';
 
 class AddNotCubit extends Cubit<AddNotState> {
   AddNotCubit() : super(AddNotInitial());
-
+   bool isLodaing = false;
   adddNote(NotModel note) async {
     emit(AddNotLoding());
 
